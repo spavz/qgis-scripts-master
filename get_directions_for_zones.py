@@ -5,7 +5,7 @@ import polyline
 from subprocess import check_output
 
 
-def get_directions_for_zones(fromZone, toZone, ZONE_COUNT, API_KEY):
+def get_directions_for_zones(fromZone, toZone, API_KEY):
 
     fromZoneGoogleCoordinates = f'{str(fromZone[1])},{str(fromZone[0])}'
     toZoneGoogleCoordinates = f'{str(toZone[1])},{str(toZone[0])}'
@@ -44,4 +44,4 @@ API_KEY = input('Enter API key\n')
 #     for toZone j 1 to ZONE_COUNT 
 #           if i != j
 
-get_directions_for_zones([ 77.094360570152418, 28.84538240846951 ], [ 77.061270869848826, 28.850501811464319 ], ZONE_COUNT, API_KEY)
+get_directions_for_zones([ 77.094360570152418, 28.84538240846951 ], [ 77.061270869848826, 28.850501811464319 ], API_KEY)
