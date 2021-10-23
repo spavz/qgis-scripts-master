@@ -17,5 +17,4 @@ for (let i = 0; i < pointsAlongLine.length - 1; i++) {
     distanceTravelled += geolib.getDistance(pointsAlongLine[i], pointsAlongLine[i + 1]);
 }
 
-console.log({ distanceTravelled })
-console.log({ deadBatteryPoint })
+console.log(JSON.stringify({ deadBatteryPoint }))
