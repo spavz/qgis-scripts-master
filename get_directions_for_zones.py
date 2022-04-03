@@ -24,6 +24,7 @@ def get_directions_for_zones(fromZone, toZone, API_KEY):
     summary = directions_cache.get(fromZoneGoogleCoordinates, toZoneGoogleCoordinates)['routes'][0]['summary']
     pointsAlongLine = directions_cache.get(fromZoneGoogleCoordinates, toZoneGoogleCoordinates)['routes'][0]['overview_polyline']['points']
     print(json.dumps(summary, indent=4))
+    print('fromZone toZone', fromZone, toZone)
 
     pointsAlongLine = list(map(list, polyline.decode(pointsAlongLine)))
 
@@ -44,7 +45,7 @@ def get_directions_for_zones(fromZone, toZone, API_KEY):
 API_KEY = input('Enter API key\n')
 
 
-get_directions_for_zones([ 77.094360570152418, 28.84538240846951 ], [ 77.061270869848826, 28.850501811464319 ], API_KEY)
+# get_directions_for_zones([ 77.094360570152418, 28.84538240846951 ], [ 77.061270869848826, 28.850501811464319 ], API_KEY)
 
 
 #Read centroids_in_zones.json

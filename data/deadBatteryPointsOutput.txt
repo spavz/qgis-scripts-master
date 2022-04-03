@@ -1,0 +1,98 @@
+"Gonda Rd"
+fromZone toZone [77.09237, 28.7941] [77.06127, 28.8505]
+{"deadBatteryPoint":[28.79594,77.08989]}
+
+[28.79594, 77.08989]
+"Narela Bawana Flyover"
+fromZone toZone [77.09237, 28.7941] [77.09436, 28.84538]
+{"deadBatteryPoint":[28.79594,77.08989]}
+
+[28.79594, 77.08989]
+"NH 44"
+fromZone toZone [77.09237, 28.7941] [77.16553, 28.82469]
+{"deadBatteryPoint":[28.79491,77.0968]}
+
+[28.79491, 77.0968]
+"Budhpur - Narela Rd"
+fromZone toZone [77.09237, 28.7941] [77.15294, 28.76907]
+{"deadBatteryPoint":[28.79491,77.0968]}
+
+[28.79491, 77.0968]
+"Bawana Rd/Bawana - Narela Rd"
+fromZone toZone [77.06127, 28.8505] [77.09237, 28.7941]
+{"deadBatteryPoint":[28.85245,77.06489]}
+
+[28.85245, 77.06489]
+"Narela Lampur Railway Under Bridge"
+fromZone toZone [77.06127, 28.8505] [77.09436, 28.84538]
+{"deadBatteryPoint":[28.85245,77.06489]}
+
+[28.85245, 77.06489]
+"NH 44"
+fromZone toZone [77.06127, 28.8505] [77.16553, 28.82469]
+{"deadBatteryPoint":[28.85245,77.06489]}
+
+[28.85245, 77.06489]
+"NH 44"
+fromZone toZone [77.06127, 28.8505] [77.15294, 28.76907]
+{"deadBatteryPoint":[28.85245,77.06489]}
+
+[28.85245, 77.06489]
+"Narela Bawana Flyover"
+fromZone toZone [77.09436, 28.84538] [77.09237, 28.7941]
+{"deadBatteryPoint":[28.84408,77.09735]}
+
+[28.84408, 77.09735]
+"Narela Lampur Railway Under Bridge"
+fromZone toZone [77.09436, 28.84538] [77.06127, 28.8505]
+{"deadBatteryPoint":[28.84503,77.09002]}
+
+[28.84503, 77.09002]
+"NH 44"
+fromZone toZone [77.09436, 28.84538] [77.16553, 28.82469]
+{"deadBatteryPoint":[28.84408,77.09735]}
+
+[28.84408, 77.09735]
+"NH 44"
+fromZone toZone [77.09436, 28.84538] [77.15294, 28.76907]
+{"deadBatteryPoint":[28.84408,77.09735]}
+
+[28.84408, 77.09735]
+"Palla Bakhtawarpur Rd"
+fromZone toZone [77.16553, 28.82469] [77.09237, 28.7941]
+{"deadBatteryPoint":[28.81893,77.1665]}
+
+[28.81893, 77.1665]
+"NH 44"
+fromZone toZone [77.16553, 28.82469] [77.06127, 28.8505]
+{"deadBatteryPoint":[28.81893,77.1665]}
+
+[28.81893, 77.1665]
+"NH 44"
+fromZone toZone [77.16553, 28.82469] [77.09436, 28.84538]
+{"deadBatteryPoint":[28.81893,77.1665]}
+
+[28.81893, 77.1665]
+"Palla Bakhtawarpur Rd and NH 44"
+fromZone toZone [77.16553, 28.82469] [77.15294, 28.76907]
+{"deadBatteryPoint":[28.81893,77.1665]}
+
+[28.81893, 77.1665]
+"Budhpur - Narela Rd"
+fromZone toZone [77.15294, 28.76907] [77.09237, 28.7941]
+{"deadBatteryPoint":[28.77235,77.15028]}
+
+[28.77235, 77.15028]
+"NH 44"
+fromZone toZone [77.15294, 28.76907] [77.06127, 28.8505]
+{"deadBatteryPoint":[28.77235,77.15028]}
+
+[28.77235, 77.15028]
+"NH 44"
+fromZone toZone [77.15294, 28.76907] [77.09436, 28.84538]
+{"deadBatteryPoint":[28.77235,77.15028]}
+
+[28.77235, 77.15028]
+"Hiranki Rd"
+fromZone toZone [77.15294, 28.76907] [77.16553, 28.82469]
+{"deadBatteryPoint":[28.77235,77.15028]}
