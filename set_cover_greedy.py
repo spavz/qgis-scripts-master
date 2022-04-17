@@ -1,3 +1,4 @@
+import json
 class IntersectedArea:
 
     def __init__(self, id, interesctingCircleIds):
@@ -8,15 +9,12 @@ class IntersectedArea:
             self.interesctingCircleIds = set()
 
 
-intersectedAreas = [
-    IntersectedArea('I1', 'C1'),
-    IntersectedArea('I2', 'C1|C2'),
-    IntersectedArea('I3', 'C2'),
-    IntersectedArea('I4', 'C2|C3'),
-    IntersectedArea('I5', 'C3'),
-    IntersectedArea('I6', 'C2|C4'),
-    IntersectedArea('I7', 'C4'),
-]
+intersectedAreas = []
+with open('inputToSetCover.json') as json_file:
+    intersectedAreaJson = json.load(json_file)
+
+    for intersectionId in intersectedAreaJson:
+        intersectedAreas.append(IntersectedArea(intersectionId, intersectedAreaJson[intersectionId]))
 
 
 
