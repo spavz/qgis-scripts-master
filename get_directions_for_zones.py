@@ -5,6 +5,16 @@ import polyline
 from subprocess import check_output
 import ast
 
+# get centroids for all zones with 5 decimal point accuracy
+# set batteryRange, remainingBatteryRange in config.json
+# get directions, demand points (at batteryRange - remainingBatteryRange) for all pairs of centroids
+# With remainingBatteryRange as radius, draw circles and find intersections of those circles
+# Run set cover greedy and find the best set of intersections
+# Place charging stations in ther centroids of those intersections, this satisfies demand of all demand points with minimum charging stations
+
+
+
+
 def get_directions_for_zones(fromZone, toZone, API_KEY):
 
     fromZoneGoogleCoordinates = f'{str(fromZone[1])},{str(fromZone[0])}'
