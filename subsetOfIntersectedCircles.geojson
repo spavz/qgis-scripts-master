@@ -1,0 +1,16 @@
+{
+    "features": [
+        {
+            "Unique_ID": "I2",
+            "circles": "circle_1|circle_2"
+        },
+        {
+            "Unique_ID": "I4",
+            "circles": "circle_2|circle_3"
+        },
+        {
+            "Unique_ID": "I6",
+            "circles": "circle_4|circle_2"
+        }
+    ]
+}

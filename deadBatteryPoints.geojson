@@ -1,0 +1,344 @@
+{
+    "features": [
+        {
+            "fromZone": [
+                77.09237,
+                28.7941
+            ],
+            "toZone": [
+                77.06127,
+                28.8505
+            ],
+            "fromZoneId": 3,
+            "toZoneId": 2,
+            "circleId": "circle_0",
+            "deadBatteryPoint": [
+                28.79594,
+                77.08989
+            ]
+        },
+        {
+            "fromZone": [
+                77.09237,
+                28.7941
+            ],
+            "toZone": [
+                77.09436,
+                28.84538
+            ],
+            "fromZoneId": 3,
+            "toZoneId": 1,
+            "circleId": "circle_1",
+            "deadBatteryPoint": [
+                28.79594,
+                77.08989
+            ]
+        },
+        {
+            "fromZone": [
+                77.09237,
+                28.7941
+            ],
+            "toZone": [
+                77.16553,
+                28.82469
+            ],
+            "fromZoneId": 3,
+            "toZoneId": 4,
+            "circleId": "circle_2",
+            "deadBatteryPoint": [
+                28.79491,
+                77.0968
+            ]
+        },
+        {
+            "fromZone": [
+                77.09237,
+                28.7941
+            ],
+            "toZone": [
+                77.15294,
+                28.76907
+            ],
+            "fromZoneId": 3,
+            "toZoneId": 5,
+            "circleId": "circle_3",
+            "deadBatteryPoint": [
+                28.79491,
+                77.0968
+            ]
+        },
+        {
+            "fromZone": [
+                77.06127,
+                28.8505
+            ],
+            "toZone": [
+                77.09237,
+                28.7941
+            ],
+            "fromZoneId": 2,
+            "toZoneId": 3,
+            "circleId": "circle_4",
+            "deadBatteryPoint": [
+                28.85245,
+                77.06489
+            ]
+        },
+        {
+            "fromZone": [
+                77.06127,
+                28.8505
+            ],
+            "toZone": [
+                77.09436,
+                28.84538
+            ],
+            "fromZoneId": 2,
+            "toZoneId": 1,
+            "circleId": "circle_5",
+            "deadBatteryPoint": [
+                28.85245,
+                77.06489
+            ]
+        },
+        {
+            "fromZone": [
+                77.06127,
+                28.8505
+            ],
+            "toZone": [
+                77.16553,
+                28.82469
+            ],
+            "fromZoneId": 2,
+            "toZoneId": 4,
+            "circleId": "circle_6",
+            "deadBatteryPoint": [
+                28.85245,
+                77.06489
+            ]
+        },
+        {
+            "fromZone": [
+                77.06127,
+                28.8505
+            ],
+            "toZone": [
+                77.15294,
+                28.76907
+            ],
+            "fromZoneId": 2,
+            "toZoneId": 5,
+            "circleId": "circle_7",
+            "deadBatteryPoint": [
+                28.85245,
+                77.06489
+            ]
+        },
+        {
+            "fromZone": [
+                77.09436,
+                28.84538
+            ],
+            "toZone": [
+                77.09237,
+                28.7941
+            ],
+            "fromZoneId": 1,
+            "toZoneId": 3,
+            "circleId": "circle_8",
+            "deadBatteryPoint": [
+                28.84408,
+                77.09735
+            ]
+        },
+        {
+            "fromZone": [
+                77.09436,
+                28.84538
+            ],
+            "toZone": [
+                77.06127,
+                28.8505
+            ],
+            "fromZoneId": 1,
+            "toZoneId": 2,
+            "circleId": "circle_9",
+            "deadBatteryPoint": [
+                28.84503,
+                77.09002
+            ]
+        },
+        {
+            "fromZone": [
+                77.09436,
+                28.84538
+            ],
+            "toZone": [
+                77.16553,
+                28.82469
+            ],
+            "fromZoneId": 1,
+            "toZoneId": 4,
+            "circleId": "circle_10",
+            "deadBatteryPoint": [
+                28.84408,
+                77.09735
+            ]
+        },
+        {
+            "fromZone": [
+                77.09436,
+                28.84538
+            ],
+            "toZone": [
+                77.15294,
+                28.76907
+            ],
+            "fromZoneId": 1,
+            "toZoneId": 5,
+            "circleId": "circle_11",
+            "deadBatteryPoint": [
+                28.84408,
+                77.09735
+            ]
+        },
+        {
+            "fromZone": [
+                77.16553,
+                28.82469
+            ],
+            "toZone": [
+                77.09237,
+                28.7941
+            ],
+            "fromZoneId": 4,
+            "toZoneId": 3,
+            "circleId": "circle_12",
+            "deadBatteryPoint": [
+                28.81893,
+                77.1665
+            ]
+        },
+        {
+            "fromZone": [
+                77.16553,
+                28.82469
+            ],
+            "toZone": [
+                77.06127,
+                28.8505
+            ],
+            "fromZoneId": 4,
+            "toZoneId": 2,
+            "circleId": "circle_13",
+            "deadBatteryPoint": [
+                28.81893,
+                77.1665
+            ]
+        },
+        {
+            "fromZone": [
+                77.16553,
+                28.82469
+            ],
+            "toZone": [
+                77.09436,
+                28.84538
+            ],
+            "fromZoneId": 4,
+            "toZoneId": 1,
+            "circleId": "circle_14",
+            "deadBatteryPoint": [
+                28.81893,
+                77.1665
+            ]
+        },
+        {
+            "fromZone": [
+                77.16553,
+                28.82469
+            ],
+            "toZone": [
+                77.15294,
+                28.76907
+            ],
+            "fromZoneId": 4,
+            "toZoneId": 5,
+            "circleId": "circle_15",
+            "deadBatteryPoint": [
+                28.81893,
+                77.1665
+            ]
+        },
+        {
+            "fromZone": [
+                77.15294,
+                28.76907
+            ],
+            "toZone": [
+                77.09237,
+                28.7941
+            ],
+            "fromZoneId": 5,
+            "toZoneId": 3,
+            "circleId": "circle_16",
+            "deadBatteryPoint": [
+                28.77235,
+                77.15028
+            ]
+        },
+        {
+            "fromZone": [
+                77.15294,
+                28.76907
+            ],
+            "toZone": [
+                77.06127,
+                28.8505
+            ],
+            "fromZoneId": 5,
+            "toZoneId": 2,
+            "circleId": "circle_17",
+            "deadBatteryPoint": [
+                28.77235,
+                77.15028
+            ]
+        },
+        {
+            "fromZone": [
+                77.15294,
+                28.76907
+            ],
+            "toZone": [
+                77.09436,
+                28.84538
+            ],
+            "fromZoneId": 5,
+            "toZoneId": 1,
+            "circleId": "circle_18",
+            "deadBatteryPoint": [
+                28.77235,
+                77.15028
+            ]
+        },
+        {
+            "fromZone": [
+                77.15294,
+                28.76907
+            ],
+            "toZone": [
+                77.16553,
+                28.82469
+            ],
+            "fromZoneId": 5,
+            "toZoneId": 4,
+            "circleId": "circle_19",
+            "deadBatteryPoint": [
+                28.77235,
+                77.15028
+            ]
+        }
+    ]
+}

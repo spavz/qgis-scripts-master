@@ -9,14 +9,6 @@ class IntersectedArea:
             self.interesctingCircleIds = set()
 
 
-intersectedAreas = []
-with open('inputToSetCoverGeo.json') as json_file:
-    rawAreas = json.load(json_file)['features']
-
-    for rawArea in rawAreas:
-        intersectedAreas.append(IntersectedArea(rawArea['properties']['Unique_ID'], rawArea['properties']['circles']))
-
-
 
 def getBestCandidate(intersectedAreas, currentUnion):
 
@@ -26,6 +18,15 @@ def getBestCandidate(intersectedAreas, currentUnion):
             currentBestIntersectedArea = intersectedArea
 
     return currentBestIntersectedArea
+
+
+
+intersectedAreas = []
+with open('intersectedCircles.geojson') as json_file:
+    rawAreas = json.load(json_file)['features']
+
+    for rawArea in rawAreas:
+        intersectedAreas.append(IntersectedArea(rawArea['properties']['Unique_ID'], rawArea['properties']['circles']))
 
 
 
@@ -39,12 +40,16 @@ for i in range(len(intersectedAreas)):
         currentUnionOfCircles = currentUnionOfCircles.union(currentBestCandidate.interesctingCircleIds)
         finalIntersectedAreas.append(currentBestCandidate)
 
-
+geoJsonOutput = {'features': []}
 
 print('Minimized intersectedArea list covering all circles')
 for area in finalIntersectedAreas:
     print(area.id, area.interesctingCircleIds)
+    geoJsonOutput['features'].append({'Unique_ID': area.id, 'circles': '|'.join(list(area.interesctingCircleIds)) })
 print()
 
 print('Union of intersected circles')
 print(currentUnionOfCircles)
+
+with open(f'subsetOfIntersectedCircles.geojson', "w") as jsonFile:
+    json.dump(geoJsonOutput, jsonFile)

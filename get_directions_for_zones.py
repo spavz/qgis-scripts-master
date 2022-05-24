@@ -15,8 +15,7 @@ import ast
 
 
 
-def get_directions_for_zones(fromZone, toZone, API_KEY):
-
+def get_directions_for_zones(fromZone, toZone, fromZoneId, toZoneId, API_KEY, geoJsonOutput):
     fromZoneGoogleCoordinates = f'{str(fromZone[1])},{str(fromZone[0])}'
     toZoneGoogleCoordinates = f'{str(toZone[1])},{str(toZone[0])}'
 
@@ -47,19 +46,23 @@ def get_directions_for_zones(fromZone, toZone, API_KEY):
     deadBatteryPoint = ast.literal_eval(javascriptString)['deadBatteryPoint']
     print(deadBatteryPoint)
 
+    geoJsonOutput['features'].append({'fromZone': fromZone, 'toZone': toZone, \
+        'fromZoneId': fromZoneId, 'toZoneId': toZoneId, \
+            'circleId': 'circle_' + str(len(geoJsonOutput['features'])), 'deadBatteryPoint': deadBatteryPoint})
 
 
 
 
 
 API_KEY = input('Enter API key\n')
+geoJsonOutput = {'features': []}
 
 
 # get_directions_for_zones([ 77.094360570152418, 28.84538240846951 ], [ 77.061270869848826, 28.850501811464319 ], API_KEY)
 
 
 #Read centroids_in_zones.json
-json_file = "centroids_in_zones.json"
+json_file = "centroids_in_zones.geojson"
 Centroids_zones = dict()
 
 with open(json_file) as _Centroid_zones:
@@ -80,4 +83,7 @@ for coordinate in Centroids_zones['features']:
 for i in range(len(ZoneId_)):
     for j in range(len(ZoneId_)):
         if i != j:
-            get_directions_for_zones(Coordinate_[i], Coordinate_[j], API_KEY)
+            get_directions_for_zones(Coordinate_[i], Coordinate_[j], ZoneId_[i], ZoneId_[j], API_KEY, geoJsonOutput)
+
+with open(f'deadBatteryPoints.geojson', "w") as jsonFile:
+    json.dump(geoJsonOutput, jsonFile)
