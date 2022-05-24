@@ -10,11 +10,11 @@ class IntersectedArea:
 
 
 intersectedAreas = []
-with open('inputToSetCover.json') as json_file:
-    intersectedAreaJson = json.load(json_file)
+with open('inputToSetCoverGeo.json') as json_file:
+    rawAreas = json.load(json_file)['features']
 
-    for intersectionId in intersectedAreaJson:
-        intersectedAreas.append(IntersectedArea(intersectionId, intersectedAreaJson[intersectionId]))
+    for rawArea in rawAreas:
+        intersectedAreas.append(IntersectedArea(rawArea['properties']['Unique_ID'], rawArea['properties']['circles']))
 
 
 

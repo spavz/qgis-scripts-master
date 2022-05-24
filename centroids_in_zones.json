@@ -1,13 +1,13 @@
 {
-"type": "FeatureCollection",
-"name": "centroids_in_zones",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Id": 3, "Zone_Name": "ALIPUR", "Area": 0.00786454, "Id_2": 3, "Zone_Name_2": "ALIPUR", "Area_2": 0.00786454 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 77.09237, 28.79410 ] ] } },
-{ "type": "Feature", "properties": { "Id": 2, "Zone_Name": "BANKNER", "Area": 0.0170966, "Id_2": 2, "Zone_Name_2": "BANKNER", "Area_2": 0.0170966 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 77.06127, 28.85050 ] ] } },
-{ "type": "Feature", "properties": { "Id": 1, "Zone_Name": "NARELA", "Area": 0.0084053, "Id_2": 1, "Zone_Name_2": "NARELA", "Area_2": 0.0084053 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 77.09436, 28.84538 ] ] } },
-{ "type": "Feature", "properties": { "Id": 4, "Zone_Name": "BAKHTAWAR PUR", "Area": 0.0560261, "Id_2": 4, "Zone_Name_2": "BAKHTAWAR PUR", "Area_2": 0.0560261 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 77.16553, 28.82469 ] ] } },
-{ "type": "Feature", "properties": { "Id": 5, "Zone_Name": "BHALSWA JAHANGIR PUR", "Area": 0.0089287, "Id_2": 5, "Zone_Name_2": "BHALSWA JAHANGIR PUR", "Area_2": 0.0089287 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 77.15294, 28.76907 ] ] } }
-]
+    "type": "FeatureCollection",
+    "name": "centroids_in_zones",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+        { "type": "Feature", "properties": { "Id": 3, "Zone_Name": "ALIPUR", "Area": 0.00786454, "Id_2": 3, "Zone_Name_2": "ALIPUR", "Area_2": 0.00786454 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 77.09237, 28.79410 ] ] } },
+        { "type": "Feature", "properties": { "Id": 2, "Zone_Name": "BANKNER", "Area": 0.0170966, "Id_2": 2, "Zone_Name_2": "BANKNER", "Area_2": 0.0170966 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 77.06127, 28.85050 ] ] } },
+        { "type": "Feature", "properties": { "Id": 1, "Zone_Name": "NARELA", "Area": 0.0084053, "Id_2": 1, "Zone_Name_2": "NARELA", "Area_2": 0.0084053 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 77.09436, 28.84538 ] ] } },
+        { "type": "Feature", "properties": { "Id": 4, "Zone_Name": "BAKHTAWAR PUR", "Area": 0.0560261, "Id_2": 4, "Zone_Name_2": "BAKHTAWAR PUR", "Area_2": 0.0560261 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 77.16553, 28.82469 ] ] } },
+        { "type": "Feature", "properties": { "Id": 5, "Zone_Name": "BHALSWA JAHANGIR PUR", "Area": 0.0089287, "Id_2": 5, "Zone_Name_2": "BHALSWA JAHANGIR PUR", "Area_2": 0.0089287 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 77.15294, 28.76907 ] ] } }
+    ]
 }
 

@@ -1,3 +1,4 @@
 {
-    "batteryRange": 500
+    "batteryRange": 500,
+    "remainingBatteryRange": 1
 }
