@@ -15,9 +15,16 @@ import ast
 
 
 
-def get_directions_for_zones(fromZone, toZone, fromZoneId, toZoneId, API_KEY, geoJsonOutput):
-    fromZoneGoogleCoordinates = f'{str(fromZone[1])},{str(fromZone[0])}'
-    toZoneGoogleCoordinates = f'{str(toZone[1])},{str(toZone[0])}'
+def get_directions_for_zones(fromZone, toZone, API_KEY, geoJsonOutput):
+
+    fromZoneXCoordinate = fromZone['xCentroid5']
+    fromZoneYCoordinate = fromZone['yCentroid5']
+    toZoneXCoordinate = toZone['xCentroid5']
+    toZoneYCoordinate = toZone['yCentroid5']
+    
+    fromZoneGoogleCoordinates = f'{str(fromZoneYCoordinate)},{str(fromZoneXCoordinate)}'
+    toZoneGoogleCoordinates = f'{str(toZoneYCoordinate)},{str(toZoneXCoordinate)}'
+    print('fromZoneGoogleCoordinates toZoneGoogleCoordinates', fromZoneGoogleCoordinates, toZoneGoogleCoordinates)
 
     if not directions_cache.get(fromZoneGoogleCoordinates, toZoneGoogleCoordinates):
         directions = requests.get(f'https://maps.googleapis.com/maps/api/directions/json?origin={fromZoneGoogleCoordinates}&destination={toZoneGoogleCoordinates}&key={API_KEY}')
@@ -33,7 +40,6 @@ def get_directions_for_zones(fromZone, toZone, fromZoneId, toZoneId, API_KEY, ge
     summary = directions_cache.get(fromZoneGoogleCoordinates, toZoneGoogleCoordinates)['routes'][0]['summary']
     pointsAlongLine = directions_cache.get(fromZoneGoogleCoordinates, toZoneGoogleCoordinates)['routes'][0]['overview_polyline']['points']
     print(json.dumps(summary, indent=4))
-    print('fromZone toZone', fromZone, toZone)
 
     pointsAlongLine = list(map(list, polyline.decode(pointsAlongLine)))
 
@@ -43,12 +49,17 @@ def get_directions_for_zones(fromZone, toZone, fromZoneId, toZoneId, API_KEY, ge
     javascriptString = check_output(f"node polyline/dead_battery_points.js ", shell=True).decode('ascii')
 
     print(javascriptString)
-    deadBatteryPoint = ast.literal_eval(javascriptString)['deadBatteryPoint']
-    print(deadBatteryPoint)
+    try:
+        deadBatteryPoint = ast.literal_eval(javascriptString)['deadBatteryPoint']
+        print(deadBatteryPoint)
+        geoJsonOutput['features'].append({'fromZoneGoogleCoordinates': fromZoneGoogleCoordinates, 'toZoneGoogleCoordinates': toZoneGoogleCoordinates, \
+        'fromZoneId': fromZone['Id'], 'toZoneId': toZone['Id'], \
+            'circleId': 'circle_' + str(len(geoJsonOutput['features'])), 'deadBatteryPointGoogleCoordinates': ','.join(map(str, deadBatteryPoint)), \
+                'deadBatteryPointGqisCoordinates': [deadBatteryPoint[1], deadBatteryPoint[0]], })
 
-    geoJsonOutput['features'].append({'fromZone': fromZone, 'toZone': toZone, \
-        'fromZoneId': fromZoneId, 'toZoneId': toZoneId, \
-            'circleId': 'circle_' + str(len(geoJsonOutput['features'])), 'deadBatteryPoint': deadBatteryPoint})
+    except SyntaxError:
+        print('No dead battery point')
+
 
 
 
@@ -63,27 +74,16 @@ geoJsonOutput = {'features': []}
 
 #Read centroids_in_zones.json
 json_file = "centroids_in_zones.geojson"
-Centroids_zones = dict()
+zones = []
 
 with open(json_file) as _Centroid_zones:
-    Centroids_zones = json.load(_Centroid_zones)
-
-ZoneId_ = []
-Coordinate_ = []
-
-for point in Centroids_zones['features']:
-    zoneId = point['properties']['Id']
-    ZoneId_.append(zoneId)
-
-for coordinate in Centroids_zones['features']:
-    coordinate_ = coordinate['geometry']['coordinates'][0]
-    Coordinate_.append(coordinate_)
+    zones = json.load(_Centroid_zones)['features']
 
 
-for i in range(len(ZoneId_)):
-    for j in range(len(ZoneId_)):
+for i in range(len(zones)):
+    for j in range(len(zones)):
         if i != j:
-            get_directions_for_zones(Coordinate_[i], Coordinate_[j], ZoneId_[i], ZoneId_[j], API_KEY, geoJsonOutput)
+            get_directions_for_zones(zones[i]['properties'], zones[j]['properties'], API_KEY, geoJsonOutput)
 
 with open(f'deadBatteryPoints.geojson', "w") as jsonFile:
     json.dump(geoJsonOutput, jsonFile)

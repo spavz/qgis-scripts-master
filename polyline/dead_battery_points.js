@@ -14,9 +14,8 @@ for (let i = 0; i < pointsAlongLine.length - 1; i++) {
 
     if (distanceTravelled + geolib.getDistance(pointsAlongLine[i], pointsAlongLine[i + 1]) >= maxRange) {
         deadBatteryPoint = pointsAlongLine[i];
+        console.log(JSON.stringify({ deadBatteryPoint }))
         break;
     }
     distanceTravelled += geolib.getDistance(pointsAlongLine[i], pointsAlongLine[i + 1]);
 }
-
-console.log(JSON.stringify({ deadBatteryPoint }))

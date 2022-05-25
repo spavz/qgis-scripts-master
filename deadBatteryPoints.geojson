@@ -1,343 +1,1083 @@
 {
     "features": [
         {
-            "fromZone": [
-                77.09237,
-                28.7941
-            ],
-            "toZone": [
-                77.06127,
-                28.8505
-            ],
-            "fromZoneId": 3,
-            "toZoneId": 2,
+            "fromZoneGoogleCoordinates": "28.84538,77.09436",
+            "toZoneGoogleCoordinates": "28.71451,77.20944",
+            "fromZoneId": 1,
+            "toZoneId": 11,
             "circleId": "circle_0",
-            "deadBatteryPoint": [
-                28.79594,
-                77.08989
+            "deadBatteryPointGoogleCoordinates": "28.84408,77.09735",
+            "deadBatteryPointGqisCoordinates": [
+                77.09735,
+                28.84408
             ]
         },
         {
-            "fromZone": [
-                77.09237,
-                28.7941
-            ],
-            "toZone": [
-                77.09436,
-                28.84538
-            ],
-            "fromZoneId": 3,
-            "toZoneId": 1,
+            "fromZoneGoogleCoordinates": "28.84538,77.09436",
+            "toZoneGoogleCoordinates": "28.73936,77.11528",
+            "fromZoneId": 1,
+            "toZoneId": 21,
             "circleId": "circle_1",
-            "deadBatteryPoint": [
-                28.79594,
-                77.08989
+            "deadBatteryPointGoogleCoordinates": "28.84408,77.09735",
+            "deadBatteryPointGqisCoordinates": [
+                77.09735,
+                28.84408
             ]
         },
         {
-            "fromZone": [
-                77.09237,
-                28.7941
-            ],
-            "toZone": [
-                77.16553,
-                28.82469
-            ],
-            "fromZoneId": 3,
-            "toZoneId": 4,
+            "fromZoneGoogleCoordinates": "28.84538,77.09436",
+            "toZoneGoogleCoordinates": "28.6842,77.04672",
+            "fromZoneId": 1,
+            "toZoneId": 31,
             "circleId": "circle_2",
-            "deadBatteryPoint": [
-                28.79491,
-                77.0968
+            "deadBatteryPointGoogleCoordinates": "28.84408,77.09735",
+            "deadBatteryPointGqisCoordinates": [
+                77.09735,
+                28.84408
             ]
         },
         {
-            "fromZone": [
-                77.09237,
-                28.7941
-            ],
-            "toZone": [
-                77.15294,
-                28.76907
-            ],
-            "fromZoneId": 3,
-            "toZoneId": 5,
+            "fromZoneGoogleCoordinates": "28.84538,77.09436",
+            "toZoneGoogleCoordinates": "28.66589,77.08242",
+            "fromZoneId": 1,
+            "toZoneId": 41,
             "circleId": "circle_3",
-            "deadBatteryPoint": [
-                28.79491,
-                77.0968
+            "deadBatteryPointGoogleCoordinates": "28.84408,77.09735",
+            "deadBatteryPointGqisCoordinates": [
+                77.09735,
+                28.84408
             ]
         },
         {
-            "fromZone": [
-                77.06127,
-                28.8505
-            ],
-            "toZone": [
-                77.09237,
-                28.7941
-            ],
-            "fromZoneId": 2,
-            "toZoneId": 3,
+            "fromZoneGoogleCoordinates": "28.84538,77.09436",
+            "toZoneGoogleCoordinates": "28.70883,77.1238",
+            "fromZoneId": 1,
+            "toZoneId": 51,
             "circleId": "circle_4",
-            "deadBatteryPoint": [
-                28.85245,
-                77.06489
+            "deadBatteryPointGoogleCoordinates": "28.84408,77.09735",
+            "deadBatteryPointGqisCoordinates": [
+                77.09735,
+                28.84408
             ]
         },
         {
-            "fromZone": [
-                77.06127,
-                28.8505
-            ],
-            "toZone": [
-                77.09436,
-                28.84538
-            ],
-            "fromZoneId": 2,
-            "toZoneId": 1,
+            "fromZoneGoogleCoordinates": "28.84538,77.09436",
+            "toZoneGoogleCoordinates": "28.65493,77.12004",
+            "fromZoneId": 1,
+            "toZoneId": 101,
             "circleId": "circle_5",
-            "deadBatteryPoint": [
-                28.85245,
-                77.06489
+            "deadBatteryPointGoogleCoordinates": "28.84408,77.09735",
+            "deadBatteryPointGqisCoordinates": [
+                77.09735,
+                28.84408
             ]
         },
         {
-            "fromZone": [
-                77.06127,
-                28.8505
-            ],
-            "toZone": [
-                77.16553,
-                28.82469
-            ],
-            "fromZoneId": 2,
-            "toZoneId": 4,
+            "fromZoneGoogleCoordinates": "28.84538,77.09436",
+            "toZoneGoogleCoordinates": "28.62843,77.11778",
+            "fromZoneId": 1,
+            "toZoneId": 111,
             "circleId": "circle_6",
-            "deadBatteryPoint": [
-                28.85245,
-                77.06489
+            "deadBatteryPointGoogleCoordinates": "28.84408,77.09735",
+            "deadBatteryPointGqisCoordinates": [
+                77.09735,
+                28.84408
             ]
         },
         {
-            "fromZone": [
-                77.06127,
-                28.8505
-            ],
-            "toZone": [
-                77.15294,
-                28.76907
-            ],
-            "fromZoneId": 2,
-            "toZoneId": 5,
+            "fromZoneGoogleCoordinates": "28.84538,77.09436",
+            "toZoneGoogleCoordinates": "28.60795,77.2995",
+            "fromZoneId": 1,
+            "toZoneId": 211,
             "circleId": "circle_7",
-            "deadBatteryPoint": [
-                28.85245,
-                77.06489
+            "deadBatteryPointGoogleCoordinates": "28.84408,77.09735",
+            "deadBatteryPointGqisCoordinates": [
+                77.09735,
+                28.84408
             ]
         },
         {
-            "fromZone": [
-                77.09436,
-                28.84538
-            ],
-            "toZone": [
-                77.09237,
-                28.7941
-            ],
+            "fromZoneGoogleCoordinates": "28.84538,77.09436",
+            "toZoneGoogleCoordinates": "28.63684,77.26522",
             "fromZoneId": 1,
-            "toZoneId": 3,
+            "toZoneId": 221,
             "circleId": "circle_8",
-            "deadBatteryPoint": [
-                28.84408,
-                77.09735
+            "deadBatteryPointGoogleCoordinates": "28.84408,77.09735",
+            "deadBatteryPointGqisCoordinates": [
+                77.09735,
+                28.84408
             ]
         },
         {
-            "fromZone": [
-                77.09436,
-                28.84538
-            ],
-            "toZone": [
-                77.06127,
-                28.8505
-            ],
-            "fromZoneId": 1,
-            "toZoneId": 2,
-            "circleId": "circle_9",
-            "deadBatteryPoint": [
-                28.84503,
-                77.09002
-            ]
-        },
-        {
-            "fromZone": [
-                77.09436,
-                28.84538
-            ],
-            "toZone": [
-                77.16553,
-                28.82469
-            ],
-            "fromZoneId": 1,
-            "toZoneId": 4,
-            "circleId": "circle_10",
-            "deadBatteryPoint": [
-                28.84408,
-                77.09735
-            ]
-        },
-        {
-            "fromZone": [
-                77.09436,
-                28.84538
-            ],
-            "toZone": [
-                77.15294,
-                28.76907
-            ],
-            "fromZoneId": 1,
-            "toZoneId": 5,
-            "circleId": "circle_11",
-            "deadBatteryPoint": [
-                28.84408,
-                77.09735
-            ]
-        },
-        {
-            "fromZone": [
-                77.16553,
-                28.82469
-            ],
-            "toZone": [
-                77.09237,
-                28.7941
-            ],
-            "fromZoneId": 4,
-            "toZoneId": 3,
-            "circleId": "circle_12",
-            "deadBatteryPoint": [
-                28.81893,
-                77.1665
-            ]
-        },
-        {
-            "fromZone": [
-                77.16553,
-                28.82469
-            ],
-            "toZone": [
-                77.06127,
-                28.8505
-            ],
-            "fromZoneId": 4,
-            "toZoneId": 2,
-            "circleId": "circle_13",
-            "deadBatteryPoint": [
-                28.81893,
-                77.1665
-            ]
-        },
-        {
-            "fromZone": [
-                77.16553,
-                28.82469
-            ],
-            "toZone": [
-                77.09436,
-                28.84538
-            ],
-            "fromZoneId": 4,
+            "fromZoneGoogleCoordinates": "28.71451,77.20944",
+            "toZoneGoogleCoordinates": "28.84538,77.09436",
+            "fromZoneId": 11,
             "toZoneId": 1,
+            "circleId": "circle_9",
+            "deadBatteryPointGoogleCoordinates": "28.71548,77.2062",
+            "deadBatteryPointGqisCoordinates": [
+                77.2062,
+                28.71548
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.71451,77.20944",
+            "toZoneGoogleCoordinates": "28.73936,77.11528",
+            "fromZoneId": 11,
+            "toZoneId": 21,
+            "circleId": "circle_10",
+            "deadBatteryPointGoogleCoordinates": "28.71548,77.2062",
+            "deadBatteryPointGqisCoordinates": [
+                77.2062,
+                28.71548
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.71451,77.20944",
+            "toZoneGoogleCoordinates": "28.6842,77.04672",
+            "fromZoneId": 11,
+            "toZoneId": 31,
+            "circleId": "circle_11",
+            "deadBatteryPointGoogleCoordinates": "28.71548,77.2062",
+            "deadBatteryPointGqisCoordinates": [
+                77.2062,
+                28.71548
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.71451,77.20944",
+            "toZoneGoogleCoordinates": "28.66589,77.08242",
+            "fromZoneId": 11,
+            "toZoneId": 41,
+            "circleId": "circle_12",
+            "deadBatteryPointGoogleCoordinates": "28.71548,77.2062",
+            "deadBatteryPointGqisCoordinates": [
+                77.2062,
+                28.71548
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.71451,77.20944",
+            "toZoneGoogleCoordinates": "28.70883,77.1238",
+            "fromZoneId": 11,
+            "toZoneId": 51,
+            "circleId": "circle_13",
+            "deadBatteryPointGoogleCoordinates": "28.71548,77.2062",
+            "deadBatteryPointGqisCoordinates": [
+                77.2062,
+                28.71548
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.71451,77.20944",
+            "toZoneGoogleCoordinates": "28.65493,77.12004",
+            "fromZoneId": 11,
+            "toZoneId": 101,
             "circleId": "circle_14",
-            "deadBatteryPoint": [
-                28.81893,
-                77.1665
+            "deadBatteryPointGoogleCoordinates": "28.71548,77.2062",
+            "deadBatteryPointGqisCoordinates": [
+                77.2062,
+                28.71548
             ]
         },
         {
-            "fromZone": [
-                77.16553,
-                28.82469
-            ],
-            "toZone": [
-                77.15294,
-                28.76907
-            ],
-            "fromZoneId": 4,
-            "toZoneId": 5,
+            "fromZoneGoogleCoordinates": "28.71451,77.20944",
+            "toZoneGoogleCoordinates": "28.62843,77.11778",
+            "fromZoneId": 11,
+            "toZoneId": 111,
             "circleId": "circle_15",
-            "deadBatteryPoint": [
-                28.81893,
-                77.1665
+            "deadBatteryPointGoogleCoordinates": "28.71548,77.2062",
+            "deadBatteryPointGqisCoordinates": [
+                77.2062,
+                28.71548
             ]
         },
         {
-            "fromZone": [
-                77.15294,
-                28.76907
-            ],
-            "toZone": [
-                77.09237,
-                28.7941
-            ],
-            "fromZoneId": 5,
-            "toZoneId": 3,
+            "fromZoneGoogleCoordinates": "28.71451,77.20944",
+            "toZoneGoogleCoordinates": "28.60795,77.2995",
+            "fromZoneId": 11,
+            "toZoneId": 211,
             "circleId": "circle_16",
-            "deadBatteryPoint": [
-                28.77235,
-                77.15028
+            "deadBatteryPointGoogleCoordinates": "28.71478,77.21178",
+            "deadBatteryPointGqisCoordinates": [
+                77.21178,
+                28.71478
             ]
         },
         {
-            "fromZone": [
-                77.15294,
-                28.76907
-            ],
-            "toZone": [
-                77.06127,
-                28.8505
-            ],
-            "fromZoneId": 5,
-            "toZoneId": 2,
+            "fromZoneGoogleCoordinates": "28.71451,77.20944",
+            "toZoneGoogleCoordinates": "28.63684,77.26522",
+            "fromZoneId": 11,
+            "toZoneId": 221,
             "circleId": "circle_17",
-            "deadBatteryPoint": [
-                28.77235,
-                77.15028
+            "deadBatteryPointGoogleCoordinates": "28.71478,77.21178",
+            "deadBatteryPointGqisCoordinates": [
+                77.21178,
+                28.71478
             ]
         },
         {
-            "fromZone": [
-                77.15294,
-                28.76907
-            ],
-            "toZone": [
-                77.09436,
-                28.84538
-            ],
-            "fromZoneId": 5,
+            "fromZoneGoogleCoordinates": "28.73936,77.11528",
+            "toZoneGoogleCoordinates": "28.84538,77.09436",
+            "fromZoneId": 21,
             "toZoneId": 1,
             "circleId": "circle_18",
-            "deadBatteryPoint": [
-                28.77235,
-                77.15028
+            "deadBatteryPointGoogleCoordinates": "28.74077,77.1192",
+            "deadBatteryPointGqisCoordinates": [
+                77.1192,
+                28.74077
             ]
         },
         {
-            "fromZone": [
-                77.15294,
-                28.76907
-            ],
-            "toZone": [
-                77.16553,
-                28.82469
-            ],
-            "fromZoneId": 5,
-            "toZoneId": 4,
+            "fromZoneGoogleCoordinates": "28.73936,77.11528",
+            "toZoneGoogleCoordinates": "28.71451,77.20944",
+            "fromZoneId": 21,
+            "toZoneId": 11,
             "circleId": "circle_19",
-            "deadBatteryPoint": [
-                28.77235,
-                77.15028
+            "deadBatteryPointGoogleCoordinates": "28.73966,77.11099",
+            "deadBatteryPointGqisCoordinates": [
+                77.11099,
+                28.73966
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.73936,77.11528",
+            "toZoneGoogleCoordinates": "28.6842,77.04672",
+            "fromZoneId": 21,
+            "toZoneId": 31,
+            "circleId": "circle_20",
+            "deadBatteryPointGoogleCoordinates": "28.73966,77.11099",
+            "deadBatteryPointGqisCoordinates": [
+                77.11099,
+                28.73966
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.73936,77.11528",
+            "toZoneGoogleCoordinates": "28.66589,77.08242",
+            "fromZoneId": 21,
+            "toZoneId": 41,
+            "circleId": "circle_21",
+            "deadBatteryPointGoogleCoordinates": "28.73966,77.11099",
+            "deadBatteryPointGqisCoordinates": [
+                77.11099,
+                28.73966
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.73936,77.11528",
+            "toZoneGoogleCoordinates": "28.70883,77.1238",
+            "fromZoneId": 21,
+            "toZoneId": 51,
+            "circleId": "circle_22",
+            "deadBatteryPointGoogleCoordinates": "28.73966,77.11099",
+            "deadBatteryPointGqisCoordinates": [
+                77.11099,
+                28.73966
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.73936,77.11528",
+            "toZoneGoogleCoordinates": "28.65493,77.12004",
+            "fromZoneId": 21,
+            "toZoneId": 101,
+            "circleId": "circle_23",
+            "deadBatteryPointGoogleCoordinates": "28.73966,77.11099",
+            "deadBatteryPointGqisCoordinates": [
+                77.11099,
+                28.73966
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.73936,77.11528",
+            "toZoneGoogleCoordinates": "28.62843,77.11778",
+            "fromZoneId": 21,
+            "toZoneId": 111,
+            "circleId": "circle_24",
+            "deadBatteryPointGoogleCoordinates": "28.73966,77.11099",
+            "deadBatteryPointGqisCoordinates": [
+                77.11099,
+                28.73966
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.73936,77.11528",
+            "toZoneGoogleCoordinates": "28.60795,77.2995",
+            "fromZoneId": 21,
+            "toZoneId": 211,
+            "circleId": "circle_25",
+            "deadBatteryPointGoogleCoordinates": "28.73966,77.11099",
+            "deadBatteryPointGqisCoordinates": [
+                77.11099,
+                28.73966
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.73936,77.11528",
+            "toZoneGoogleCoordinates": "28.63684,77.26522",
+            "fromZoneId": 21,
+            "toZoneId": 221,
+            "circleId": "circle_26",
+            "deadBatteryPointGoogleCoordinates": "28.73966,77.11099",
+            "deadBatteryPointGqisCoordinates": [
+                77.11099,
+                28.73966
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.6842,77.04672",
+            "toZoneGoogleCoordinates": "28.84538,77.09436",
+            "fromZoneId": 31,
+            "toZoneId": 1,
+            "circleId": "circle_27",
+            "deadBatteryPointGoogleCoordinates": "28.68228,77.04776",
+            "deadBatteryPointGqisCoordinates": [
+                77.04776,
+                28.68228
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.6842,77.04672",
+            "toZoneGoogleCoordinates": "28.71451,77.20944",
+            "fromZoneId": 31,
+            "toZoneId": 11,
+            "circleId": "circle_28",
+            "deadBatteryPointGoogleCoordinates": "28.68228,77.04776",
+            "deadBatteryPointGqisCoordinates": [
+                77.04776,
+                28.68228
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.6842,77.04672",
+            "toZoneGoogleCoordinates": "28.73936,77.11528",
+            "fromZoneId": 31,
+            "toZoneId": 21,
+            "circleId": "circle_29",
+            "deadBatteryPointGoogleCoordinates": "28.68228,77.04776",
+            "deadBatteryPointGqisCoordinates": [
+                77.04776,
+                28.68228
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.6842,77.04672",
+            "toZoneGoogleCoordinates": "28.66589,77.08242",
+            "fromZoneId": 31,
+            "toZoneId": 41,
+            "circleId": "circle_30",
+            "deadBatteryPointGoogleCoordinates": "28.68228,77.04776",
+            "deadBatteryPointGqisCoordinates": [
+                77.04776,
+                28.68228
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.6842,77.04672",
+            "toZoneGoogleCoordinates": "28.70883,77.1238",
+            "fromZoneId": 31,
+            "toZoneId": 51,
+            "circleId": "circle_31",
+            "deadBatteryPointGoogleCoordinates": "28.68228,77.04776",
+            "deadBatteryPointGqisCoordinates": [
+                77.04776,
+                28.68228
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.6842,77.04672",
+            "toZoneGoogleCoordinates": "28.65493,77.12004",
+            "fromZoneId": 31,
+            "toZoneId": 101,
+            "circleId": "circle_32",
+            "deadBatteryPointGoogleCoordinates": "28.68228,77.04776",
+            "deadBatteryPointGqisCoordinates": [
+                77.04776,
+                28.68228
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.6842,77.04672",
+            "toZoneGoogleCoordinates": "28.62843,77.11778",
+            "fromZoneId": 31,
+            "toZoneId": 111,
+            "circleId": "circle_33",
+            "deadBatteryPointGoogleCoordinates": "28.68228,77.04776",
+            "deadBatteryPointGqisCoordinates": [
+                77.04776,
+                28.68228
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.6842,77.04672",
+            "toZoneGoogleCoordinates": "28.60795,77.2995",
+            "fromZoneId": 31,
+            "toZoneId": 211,
+            "circleId": "circle_34",
+            "deadBatteryPointGoogleCoordinates": "28.68228,77.04776",
+            "deadBatteryPointGqisCoordinates": [
+                77.04776,
+                28.68228
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.6842,77.04672",
+            "toZoneGoogleCoordinates": "28.63684,77.26522",
+            "fromZoneId": 31,
+            "toZoneId": 221,
+            "circleId": "circle_35",
+            "deadBatteryPointGoogleCoordinates": "28.68228,77.04776",
+            "deadBatteryPointGqisCoordinates": [
+                77.04776,
+                28.68228
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.66589,77.08242",
+            "toZoneGoogleCoordinates": "28.84538,77.09436",
+            "fromZoneId": 41,
+            "toZoneId": 1,
+            "circleId": "circle_36",
+            "deadBatteryPointGoogleCoordinates": "28.67016,77.08571",
+            "deadBatteryPointGqisCoordinates": [
+                77.08571,
+                28.67016
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.66589,77.08242",
+            "toZoneGoogleCoordinates": "28.71451,77.20944",
+            "fromZoneId": 41,
+            "toZoneId": 11,
+            "circleId": "circle_37",
+            "deadBatteryPointGoogleCoordinates": "28.67016,77.08571",
+            "deadBatteryPointGqisCoordinates": [
+                77.08571,
+                28.67016
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.66589,77.08242",
+            "toZoneGoogleCoordinates": "28.73936,77.11528",
+            "fromZoneId": 41,
+            "toZoneId": 21,
+            "circleId": "circle_38",
+            "deadBatteryPointGoogleCoordinates": "28.67016,77.08571",
+            "deadBatteryPointGqisCoordinates": [
+                77.08571,
+                28.67016
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.66589,77.08242",
+            "toZoneGoogleCoordinates": "28.6842,77.04672",
+            "fromZoneId": 41,
+            "toZoneId": 31,
+            "circleId": "circle_39",
+            "deadBatteryPointGoogleCoordinates": "28.67062,77.08146",
+            "deadBatteryPointGqisCoordinates": [
+                77.08146,
+                28.67062
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.66589,77.08242",
+            "toZoneGoogleCoordinates": "28.70883,77.1238",
+            "fromZoneId": 41,
+            "toZoneId": 51,
+            "circleId": "circle_40",
+            "deadBatteryPointGoogleCoordinates": "28.67016,77.08571",
+            "deadBatteryPointGqisCoordinates": [
+                77.08571,
+                28.67016
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.66589,77.08242",
+            "toZoneGoogleCoordinates": "28.65493,77.12004",
+            "fromZoneId": 41,
+            "toZoneId": 101,
+            "circleId": "circle_41",
+            "deadBatteryPointGoogleCoordinates": "28.66175,77.08326",
+            "deadBatteryPointGqisCoordinates": [
+                77.08326,
+                28.66175
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.66589,77.08242",
+            "toZoneGoogleCoordinates": "28.62843,77.11778",
+            "fromZoneId": 41,
+            "toZoneId": 111,
+            "circleId": "circle_42",
+            "deadBatteryPointGoogleCoordinates": "28.66175,77.08326",
+            "deadBatteryPointGqisCoordinates": [
+                77.08326,
+                28.66175
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.66589,77.08242",
+            "toZoneGoogleCoordinates": "28.60795,77.2995",
+            "fromZoneId": 41,
+            "toZoneId": 211,
+            "circleId": "circle_43",
+            "deadBatteryPointGoogleCoordinates": "28.67016,77.08571",
+            "deadBatteryPointGqisCoordinates": [
+                77.08571,
+                28.67016
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.66589,77.08242",
+            "toZoneGoogleCoordinates": "28.63684,77.26522",
+            "fromZoneId": 41,
+            "toZoneId": 221,
+            "circleId": "circle_44",
+            "deadBatteryPointGoogleCoordinates": "28.67016,77.08571",
+            "deadBatteryPointGqisCoordinates": [
+                77.08571,
+                28.67016
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.70883,77.1238",
+            "toZoneGoogleCoordinates": "28.84538,77.09436",
+            "fromZoneId": 51,
+            "toZoneId": 1,
+            "circleId": "circle_45",
+            "deadBatteryPointGoogleCoordinates": "28.70623,77.12803",
+            "deadBatteryPointGqisCoordinates": [
+                77.12803,
+                28.70623
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.70883,77.1238",
+            "toZoneGoogleCoordinates": "28.71451,77.20944",
+            "fromZoneId": 51,
+            "toZoneId": 11,
+            "circleId": "circle_46",
+            "deadBatteryPointGoogleCoordinates": "28.70623,77.12803",
+            "deadBatteryPointGqisCoordinates": [
+                77.12803,
+                28.70623
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.70883,77.1238",
+            "toZoneGoogleCoordinates": "28.73936,77.11528",
+            "fromZoneId": 51,
+            "toZoneId": 21,
+            "circleId": "circle_47",
+            "deadBatteryPointGoogleCoordinates": "28.71159,77.12005",
+            "deadBatteryPointGqisCoordinates": [
+                77.12005,
+                28.71159
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.70883,77.1238",
+            "toZoneGoogleCoordinates": "28.6842,77.04672",
+            "fromZoneId": 51,
+            "toZoneId": 31,
+            "circleId": "circle_48",
+            "deadBatteryPointGoogleCoordinates": "28.70623,77.12803",
+            "deadBatteryPointGqisCoordinates": [
+                77.12803,
+                28.70623
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.70883,77.1238",
+            "toZoneGoogleCoordinates": "28.66589,77.08242",
+            "fromZoneId": 51,
+            "toZoneId": 41,
+            "circleId": "circle_49",
+            "deadBatteryPointGoogleCoordinates": "28.70623,77.12803",
+            "deadBatteryPointGqisCoordinates": [
+                77.12803,
+                28.70623
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.70883,77.1238",
+            "toZoneGoogleCoordinates": "28.65493,77.12004",
+            "fromZoneId": 51,
+            "toZoneId": 101,
+            "circleId": "circle_50",
+            "deadBatteryPointGoogleCoordinates": "28.70623,77.12803",
+            "deadBatteryPointGqisCoordinates": [
+                77.12803,
+                28.70623
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.70883,77.1238",
+            "toZoneGoogleCoordinates": "28.62843,77.11778",
+            "fromZoneId": 51,
+            "toZoneId": 111,
+            "circleId": "circle_51",
+            "deadBatteryPointGoogleCoordinates": "28.70623,77.12803",
+            "deadBatteryPointGqisCoordinates": [
+                77.12803,
+                28.70623
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.70883,77.1238",
+            "toZoneGoogleCoordinates": "28.60795,77.2995",
+            "fromZoneId": 51,
+            "toZoneId": 211,
+            "circleId": "circle_52",
+            "deadBatteryPointGoogleCoordinates": "28.70623,77.12803",
+            "deadBatteryPointGqisCoordinates": [
+                77.12803,
+                28.70623
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.70883,77.1238",
+            "toZoneGoogleCoordinates": "28.63684,77.26522",
+            "fromZoneId": 51,
+            "toZoneId": 221,
+            "circleId": "circle_53",
+            "deadBatteryPointGoogleCoordinates": "28.70623,77.12803",
+            "deadBatteryPointGqisCoordinates": [
+                77.12803,
+                28.70623
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.65493,77.12004",
+            "toZoneGoogleCoordinates": "28.84538,77.09436",
+            "fromZoneId": 101,
+            "toZoneId": 1,
+            "circleId": "circle_54",
+            "deadBatteryPointGoogleCoordinates": "28.65437,77.12439",
+            "deadBatteryPointGqisCoordinates": [
+                77.12439,
+                28.65437
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.65493,77.12004",
+            "toZoneGoogleCoordinates": "28.71451,77.20944",
+            "fromZoneId": 101,
+            "toZoneId": 11,
+            "circleId": "circle_55",
+            "deadBatteryPointGoogleCoordinates": "28.65437,77.12439",
+            "deadBatteryPointGqisCoordinates": [
+                77.12439,
+                28.65437
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.65493,77.12004",
+            "toZoneGoogleCoordinates": "28.73936,77.11528",
+            "fromZoneId": 101,
+            "toZoneId": 21,
+            "circleId": "circle_56",
+            "deadBatteryPointGoogleCoordinates": "28.65437,77.12439",
+            "deadBatteryPointGqisCoordinates": [
+                77.12439,
+                28.65437
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.65493,77.12004",
+            "toZoneGoogleCoordinates": "28.6842,77.04672",
+            "fromZoneId": 101,
+            "toZoneId": 31,
+            "circleId": "circle_57",
+            "deadBatteryPointGoogleCoordinates": "28.65784,77.12202",
+            "deadBatteryPointGqisCoordinates": [
+                77.12202,
+                28.65784
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.65493,77.12004",
+            "toZoneGoogleCoordinates": "28.66589,77.08242",
+            "fromZoneId": 101,
+            "toZoneId": 41,
+            "circleId": "circle_58",
+            "deadBatteryPointGoogleCoordinates": "28.654,77.11654",
+            "deadBatteryPointGqisCoordinates": [
+                77.11654,
+                28.654
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.65493,77.12004",
+            "toZoneGoogleCoordinates": "28.70883,77.1238",
+            "fromZoneId": 101,
+            "toZoneId": 51,
+            "circleId": "circle_59",
+            "deadBatteryPointGoogleCoordinates": "28.65437,77.12439",
+            "deadBatteryPointGqisCoordinates": [
+                77.12439,
+                28.65437
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.65493,77.12004",
+            "toZoneGoogleCoordinates": "28.62843,77.11778",
+            "fromZoneId": 101,
+            "toZoneId": 111,
+            "circleId": "circle_60",
+            "deadBatteryPointGoogleCoordinates": "28.65412,77.12458",
+            "deadBatteryPointGqisCoordinates": [
+                77.12458,
+                28.65412
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.65493,77.12004",
+            "toZoneGoogleCoordinates": "28.60795,77.2995",
+            "fromZoneId": 101,
+            "toZoneId": 211,
+            "circleId": "circle_61",
+            "deadBatteryPointGoogleCoordinates": "28.65412,77.12458",
+            "deadBatteryPointGqisCoordinates": [
+                77.12458,
+                28.65412
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.65493,77.12004",
+            "toZoneGoogleCoordinates": "28.63684,77.26522",
+            "fromZoneId": 101,
+            "toZoneId": 221,
+            "circleId": "circle_62",
+            "deadBatteryPointGoogleCoordinates": "28.65412,77.12458",
+            "deadBatteryPointGqisCoordinates": [
+                77.12458,
+                28.65412
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.62843,77.11778",
+            "toZoneGoogleCoordinates": "28.84538,77.09436",
+            "fromZoneId": 111,
+            "toZoneId": 1,
+            "circleId": "circle_63",
+            "deadBatteryPointGoogleCoordinates": "28.63086,77.12043",
+            "deadBatteryPointGqisCoordinates": [
+                77.12043,
+                28.63086
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.62843,77.11778",
+            "toZoneGoogleCoordinates": "28.71451,77.20944",
+            "fromZoneId": 111,
+            "toZoneId": 11,
+            "circleId": "circle_64",
+            "deadBatteryPointGoogleCoordinates": "28.63086,77.12043",
+            "deadBatteryPointGqisCoordinates": [
+                77.12043,
+                28.63086
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.62843,77.11778",
+            "toZoneGoogleCoordinates": "28.73936,77.11528",
+            "fromZoneId": 111,
+            "toZoneId": 21,
+            "circleId": "circle_65",
+            "deadBatteryPointGoogleCoordinates": "28.63086,77.12043",
+            "deadBatteryPointGqisCoordinates": [
+                77.12043,
+                28.63086
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.62843,77.11778",
+            "toZoneGoogleCoordinates": "28.6842,77.04672",
+            "fromZoneId": 111,
+            "toZoneId": 31,
+            "circleId": "circle_66",
+            "deadBatteryPointGoogleCoordinates": "28.63086,77.12043",
+            "deadBatteryPointGqisCoordinates": [
+                77.12043,
+                28.63086
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.62843,77.11778",
+            "toZoneGoogleCoordinates": "28.66589,77.08242",
+            "fromZoneId": 111,
+            "toZoneId": 41,
+            "circleId": "circle_67",
+            "deadBatteryPointGoogleCoordinates": "28.62861,77.11501",
+            "deadBatteryPointGqisCoordinates": [
+                77.11501,
+                28.62861
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.62843,77.11778",
+            "toZoneGoogleCoordinates": "28.70883,77.1238",
+            "fromZoneId": 111,
+            "toZoneId": 51,
+            "circleId": "circle_68",
+            "deadBatteryPointGoogleCoordinates": "28.63086,77.12043",
+            "deadBatteryPointGqisCoordinates": [
+                77.12043,
+                28.63086
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.62843,77.11778",
+            "toZoneGoogleCoordinates": "28.65493,77.12004",
+            "fromZoneId": 111,
+            "toZoneId": 101,
+            "circleId": "circle_69",
+            "deadBatteryPointGoogleCoordinates": "28.63086,77.12043",
+            "deadBatteryPointGqisCoordinates": [
+                77.12043,
+                28.63086
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.62843,77.11778",
+            "toZoneGoogleCoordinates": "28.60795,77.2995",
+            "fromZoneId": 111,
+            "toZoneId": 211,
+            "circleId": "circle_70",
+            "deadBatteryPointGoogleCoordinates": "28.63086,77.12043",
+            "deadBatteryPointGqisCoordinates": [
+                77.12043,
+                28.63086
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.62843,77.11778",
+            "toZoneGoogleCoordinates": "28.63684,77.26522",
+            "fromZoneId": 111,
+            "toZoneId": 221,
+            "circleId": "circle_71",
+            "deadBatteryPointGoogleCoordinates": "28.63086,77.12043",
+            "deadBatteryPointGqisCoordinates": [
+                77.12043,
+                28.63086
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.60795,77.2995",
+            "toZoneGoogleCoordinates": "28.84538,77.09436",
+            "fromZoneId": 211,
+            "toZoneId": 1,
+            "circleId": "circle_72",
+            "deadBatteryPointGoogleCoordinates": "28.60562,77.29644",
+            "deadBatteryPointGqisCoordinates": [
+                77.29644,
+                28.60562
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.60795,77.2995",
+            "toZoneGoogleCoordinates": "28.71451,77.20944",
+            "fromZoneId": 211,
+            "toZoneId": 11,
+            "circleId": "circle_73",
+            "deadBatteryPointGoogleCoordinates": "28.60562,77.29644",
+            "deadBatteryPointGqisCoordinates": [
+                77.29644,
+                28.60562
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.60795,77.2995",
+            "toZoneGoogleCoordinates": "28.73936,77.11528",
+            "fromZoneId": 211,
+            "toZoneId": 21,
+            "circleId": "circle_74",
+            "deadBatteryPointGoogleCoordinates": "28.60562,77.29644",
+            "deadBatteryPointGqisCoordinates": [
+                77.29644,
+                28.60562
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.60795,77.2995",
+            "toZoneGoogleCoordinates": "28.6842,77.04672",
+            "fromZoneId": 211,
+            "toZoneId": 31,
+            "circleId": "circle_75",
+            "deadBatteryPointGoogleCoordinates": "28.60562,77.29644",
+            "deadBatteryPointGqisCoordinates": [
+                77.29644,
+                28.60562
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.60795,77.2995",
+            "toZoneGoogleCoordinates": "28.66589,77.08242",
+            "fromZoneId": 211,
+            "toZoneId": 41,
+            "circleId": "circle_76",
+            "deadBatteryPointGoogleCoordinates": "28.60562,77.29644",
+            "deadBatteryPointGqisCoordinates": [
+                77.29644,
+                28.60562
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.60795,77.2995",
+            "toZoneGoogleCoordinates": "28.70883,77.1238",
+            "fromZoneId": 211,
+            "toZoneId": 51,
+            "circleId": "circle_77",
+            "deadBatteryPointGoogleCoordinates": "28.60562,77.29644",
+            "deadBatteryPointGqisCoordinates": [
+                77.29644,
+                28.60562
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.60795,77.2995",
+            "toZoneGoogleCoordinates": "28.65493,77.12004",
+            "fromZoneId": 211,
+            "toZoneId": 101,
+            "circleId": "circle_78",
+            "deadBatteryPointGoogleCoordinates": "28.60562,77.29644",
+            "deadBatteryPointGqisCoordinates": [
+                77.29644,
+                28.60562
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.60795,77.2995",
+            "toZoneGoogleCoordinates": "28.62843,77.11778",
+            "fromZoneId": 211,
+            "toZoneId": 111,
+            "circleId": "circle_79",
+            "deadBatteryPointGoogleCoordinates": "28.60562,77.29644",
+            "deadBatteryPointGqisCoordinates": [
+                77.29644,
+                28.60562
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.60795,77.2995",
+            "toZoneGoogleCoordinates": "28.63684,77.26522",
+            "fromZoneId": 211,
+            "toZoneId": 221,
+            "circleId": "circle_80",
+            "deadBatteryPointGoogleCoordinates": "28.60562,77.29644",
+            "deadBatteryPointGqisCoordinates": [
+                77.29644,
+                28.60562
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.63684,77.26522",
+            "toZoneGoogleCoordinates": "28.84538,77.09436",
+            "fromZoneId": 221,
+            "toZoneId": 1,
+            "circleId": "circle_81",
+            "deadBatteryPointGoogleCoordinates": "28.63787,77.26951",
+            "deadBatteryPointGqisCoordinates": [
+                77.26951,
+                28.63787
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.63684,77.26522",
+            "toZoneGoogleCoordinates": "28.71451,77.20944",
+            "fromZoneId": 221,
+            "toZoneId": 11,
+            "circleId": "circle_82",
+            "deadBatteryPointGoogleCoordinates": "28.63787,77.26951",
+            "deadBatteryPointGqisCoordinates": [
+                77.26951,
+                28.63787
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.63684,77.26522",
+            "toZoneGoogleCoordinates": "28.73936,77.11528",
+            "fromZoneId": 221,
+            "toZoneId": 21,
+            "circleId": "circle_83",
+            "deadBatteryPointGoogleCoordinates": "28.63787,77.26951",
+            "deadBatteryPointGqisCoordinates": [
+                77.26951,
+                28.63787
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.63684,77.26522",
+            "toZoneGoogleCoordinates": "28.6842,77.04672",
+            "fromZoneId": 221,
+            "toZoneId": 31,
+            "circleId": "circle_84",
+            "deadBatteryPointGoogleCoordinates": "28.63787,77.26951",
+            "deadBatteryPointGqisCoordinates": [
+                77.26951,
+                28.63787
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.63684,77.26522",
+            "toZoneGoogleCoordinates": "28.66589,77.08242",
+            "fromZoneId": 221,
+            "toZoneId": 41,
+            "circleId": "circle_85",
+            "deadBatteryPointGoogleCoordinates": "28.63787,77.26951",
+            "deadBatteryPointGqisCoordinates": [
+                77.26951,
+                28.63787
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.63684,77.26522",
+            "toZoneGoogleCoordinates": "28.70883,77.1238",
+            "fromZoneId": 221,
+            "toZoneId": 51,
+            "circleId": "circle_86",
+            "deadBatteryPointGoogleCoordinates": "28.63787,77.26951",
+            "deadBatteryPointGqisCoordinates": [
+                77.26951,
+                28.63787
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.63684,77.26522",
+            "toZoneGoogleCoordinates": "28.65493,77.12004",
+            "fromZoneId": 221,
+            "toZoneId": 101,
+            "circleId": "circle_87",
+            "deadBatteryPointGoogleCoordinates": "28.63787,77.26951",
+            "deadBatteryPointGqisCoordinates": [
+                77.26951,
+                28.63787
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.63684,77.26522",
+            "toZoneGoogleCoordinates": "28.62843,77.11778",
+            "fromZoneId": 221,
+            "toZoneId": 111,
+            "circleId": "circle_88",
+            "deadBatteryPointGoogleCoordinates": "28.63787,77.26951",
+            "deadBatteryPointGqisCoordinates": [
+                77.26951,
+                28.63787
+            ]
+        },
+        {
+            "fromZoneGoogleCoordinates": "28.63684,77.26522",
+            "toZoneGoogleCoordinates": "28.60795,77.2995",
+            "fromZoneId": 221,
+            "toZoneId": 211,
+            "circleId": "circle_89",
+            "deadBatteryPointGoogleCoordinates": "28.63787,77.26951",
+            "deadBatteryPointGqisCoordinates": [
+                77.26951,
+                28.63787
             ]
         }
     ]
