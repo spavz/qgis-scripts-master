@@ -52,10 +52,14 @@ def get_directions_for_zones(fromZone, toZone, API_KEY, geoJsonOutput):
     try:
         deadBatteryPoint = ast.literal_eval(javascriptString)['deadBatteryPoint']
         print(deadBatteryPoint)
-        geoJsonOutput['features'].append({'fromZoneGoogleCoordinates': fromZoneGoogleCoordinates, 'toZoneGoogleCoordinates': toZoneGoogleCoordinates, \
+        properties = {'fromZoneGoogleCoordinates': fromZoneGoogleCoordinates, 'toZoneGoogleCoordinates': toZoneGoogleCoordinates, \
         'fromZoneId': fromZone['Id'], 'toZoneId': toZone['Id'], \
-            'circleId': 'circle_' + str(len(geoJsonOutput['features'])), 'deadBatteryPointGoogleCoordinates': ','.join(map(str, deadBatteryPoint)), \
-                'deadBatteryPointGqisCoordinates': [deadBatteryPoint[1], deadBatteryPoint[0]], })
+            'id': 'circle_' + str(len(geoJsonOutput['features'])), 'deadBatteryPointGoogleCoordinates': ','.join(map(str, deadBatteryPoint)), \
+                'deadBatteryPointGqisCoordinates': [deadBatteryPoint[1], deadBatteryPoint[0]] }
+        geometry = {'type': 'Point', 'coordinates':[deadBatteryPoint[1], deadBatteryPoint[0]]}
+
+        geoJsonOutput['features'].append({'type': 'Feature', 'properties': properties, 'geometry': geometry})
+        # geoJsonOutput['features'].append([deadBatteryPoint[1], deadBatteryPoint[0]])
 
     except SyntaxError:
         print('No dead battery point')
@@ -66,7 +70,9 @@ def get_directions_for_zones(fromZone, toZone, API_KEY, geoJsonOutput):
 
 
 API_KEY = input('Enter API key\n')
-geoJsonOutput = {'features': []}
+geoJsonOutput = {'features': [], 'type': 'FeatureCollection', 'name': 'deadBatteryPoints', 'crs': {'type': 'name', 'properties': {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }} }
 
 
 # get_directions_for_zones([ 77.094360570152418, 28.84538240846951 ], [ 77.061270869848826, 28.850501811464319 ], API_KEY)
@@ -84,6 +90,7 @@ for i in range(len(zones)):
     for j in range(len(zones)):
         if i != j:
             get_directions_for_zones(zones[i]['properties'], zones[j]['properties'], API_KEY, geoJsonOutput)
+
 
 with open(f'deadBatteryPoints.geojson', "w") as jsonFile:
     json.dump(geoJsonOutput, jsonFile)
