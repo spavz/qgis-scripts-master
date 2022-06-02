@@ -1,5 +1,5 @@
 {
-    "batteryRange": 2000,
+    "batteryRange": 5000,
     "remainingBatteryRange": 1,
     "demandRadius": 1000
 }
