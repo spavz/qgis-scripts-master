@@ -23,7 +23,7 @@ def getBestCandidate(intersectedAreas, currentUnion):
 
 geoJsonFeatureMap = dict()
 intersectedAreas = []
-with open('io/intersectedCircles.geojson') as json_file:
+with open('io/chargingStations.geojson') as json_file:
     rawAreas = json.load(json_file)['features']
 
     for rawArea in rawAreas:
@@ -63,9 +63,9 @@ else:
 print('Final number of charging stations: ', len(finalIntersectedAreas))
 
 
-with open(f'io/subsetOfIntersectedCircles.json', "w") as jsonFile:
+with open(f'io/subsetOfchargingStations.json', "w") as jsonFile:
     json.dump(geoJsonOutput, jsonFile, indent=4)
 
-with open(f'io/subsetOfIntersectedCircles.geojson', "w") as jsonFile:
+with open(f'io/subsetOfchargingStations.geojson', "w") as jsonFile:
     json.dump(geoJsonOutput, jsonFile)
 

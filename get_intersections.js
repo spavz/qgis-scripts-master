@@ -63,6 +63,6 @@ Object.keys(intersectedCirclesByChargingStationId).forEach(stationId => {
 })
 
 console.log('\nNumber of candidate charging stations: ' + outputFile.features.length +'\n')
-fs.writeFileSync('./io/intersectedCircles.json', JSON.stringify(outputFile, null, 4))
-fs.writeFileSync('./io/intersectedCircles.geojson', JSON.stringify(outputFile))
+fs.writeFileSync('./io/chargingStations.json', JSON.stringify(outputFile, null, 4))
+fs.writeFileSync('./io/chargingStations.geojson', JSON.stringify(outputFile))
 
