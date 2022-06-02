@@ -1,5 +1,6 @@
 
 const turf = require('@turf/turf');
+const fs = require('fs');
 
 const X_MIN = 76.819;
 const X_MAX = 77.371;
@@ -51,5 +52,5 @@ Object.keys(intersectedCirclesByChargingStationId).forEach(stationId => {
     })
 })
 
+fs.writeFileSync('./intersectedCircles.geojson', JSON.stringify(outputFile))
 
-console.log(JSON.stringify(outputFile, null, 2));
