@@ -21,12 +21,13 @@ def getBestCandidate(intersectedAreas, currentUnion):
     return currentBestIntersectedArea
 
 
-
+geoJsonFeatureMap = dict()
 intersectedAreas = []
 with open('io/intersectedCircles.geojson') as json_file:
     rawAreas = json.load(json_file)['features']
 
     for rawArea in rawAreas:
+        geoJsonFeatureMap[rawArea['properties']['Unique_ID']] = json.loads(json.dumps(rawArea))
         intersectedAreas.append(IntersectedArea(rawArea['properties']['Unique_ID'], rawArea['properties']['circles']))
 
 
@@ -43,12 +44,16 @@ for i in range(len(intersectedAreas)):
         currentUnionOfCircles = currentUnionOfCircles.union(currentBestCandidate.interesctingCircleIds)
         finalIntersectedAreas.append(currentBestCandidate)
 
-geoJsonOutput = {'features': []}
+
+geoJsonOutput = {'features': [], 'type': 'FeatureCollection', 'name': 'deadBatteryPoints', 'crs': {'type': 'name', 'properties': {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }} }
+
 
 print('\nMinimized charging station list: \n')
 for area in finalIntersectedAreas:
     print(area.id, 'covers', len(area.interesctingCircleIds), 'circles')
-    geoJsonOutput['features'].append({'Unique_ID': area.id, 'circles': '|'.join(list(area.interesctingCircleIds)) })
+    geoJsonOutput['features'].append(geoJsonFeatureMap[area.id])
 
 if len(allUnionOfCircles) == len(currentUnionOfCircles):
     print('\nUnion of circles is valid\n')

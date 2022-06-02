@@ -8,7 +8,8 @@ const Y_MIN = 28.364;
 const Y_MAX = 28.894;
 const POINT_ACCURACY = 0.005;
 
-const intersectedCirclesByChargingStationId = {}
+const intersectedCirclesByChargingStationId = {};
+const coordinatesByChargingStationId = {};
 
 let deadBatteryPoints = require('./io/deadBatteryPoints.json')
 
@@ -33,26 +34,35 @@ for (let y = Y_MIN; y < Y_MAX; y += POINT_ACCURACY) {
                 intersectedCirclesByChargingStationId[stationId].add(deadBatteryPoint.properties.id)
             }
         });
-
+        
         if (intersectedCirclesByChargingStationId[stationId]) {
+            coordinatesByChargingStationId[stationId] = [parseFloat(x.toFixed(5)), parseFloat(y.toFixed(5))];
             intersectedCirclesByChargingStationId[stationId] = Array.from(intersectedCirclesByChargingStationId[stationId]);
         }
     }
 
 }
 
-outputFile = {features: []};
+
+const outputFile =  {'features': [], 'type': 'FeatureCollection', 'name': 'intersectedCircles', 'crs': {'type': 'name', 'properties': {
+    "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+}} }
 
 Object.keys(intersectedCirclesByChargingStationId).forEach(stationId => {
     outputFile.features.push({
+        type: 'Feature',
         properties : {
             Unique_ID : stationId,
             circles: intersectedCirclesByChargingStationId[stationId].join('|')
+        },
+        geometry: {
+            type: 'Point',
+            coordinates: coordinatesByChargingStationId[stationId]
         }
     })
 })
 
 console.log('\nNumber of candidate charging stations: ' + outputFile.features.length +'\n')
-fs.writeFileSync('./io/intersectedCircles.json', JSON.stringify(outputFile))
+fs.writeFileSync('./io/intersectedCircles.json', JSON.stringify(outputFile, null, 4))
 fs.writeFileSync('./io/intersectedCircles.geojson', JSON.stringify(outputFile))
 
