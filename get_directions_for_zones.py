@@ -92,5 +92,5 @@ for i in range(len(zones)):
             get_directions_for_zones(zones[i]['properties'], zones[j]['properties'], API_KEY, geoJsonOutput)
 
 
-with open(f'deadBatteryPoints.geojson', "w") as jsonFile:
+with open(f'deadBatteryPoints.json', "w") as jsonFile:
     json.dump(geoJsonOutput, jsonFile)
