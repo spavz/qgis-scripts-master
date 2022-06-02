@@ -3,55 +3,27 @@
         {
             "type": "Feature",
             "properties": {
-                "Unique_ID": "station_5424",
-                "circles": "circle_72|circle_73|circle_74|circle_75|circle_76|circle_77|circle_78|circle_79|circle_80"
+                "Unique_ID": "station_5644",
+                "circles": "circle_72|circle_73|circle_74|circle_75|circle_76|circle_77|circle_78|circle_79|circle_80|circle_89"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.294,
-                    28.604
+                    77.284,
+                    28.614
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "Unique_ID": "station_5944",
-                "circles": "circle_63|circle_64|circle_65|circle_66|circle_67|circle_68|circle_69|circle_70|circle_71"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.119,
-                    28.629
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Unique_ID": "station_6085",
-                "circles": "circle_81|circle_82|circle_83|circle_84|circle_85|circle_86|circle_87|circle_88|circle_89"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.269,
-                    28.634
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Unique_ID": "station_7040",
+                "Unique_ID": "station_7043",
                 "circles": "circle_27|circle_28|circle_29|circle_30|circle_31|circle_32|circle_33|circle_34|circle_35"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.049,
+                    77.064,
                     28.679
                 ]
             }
@@ -59,83 +31,111 @@
         {
             "type": "Feature",
             "properties": {
-                "Unique_ID": "station_7849",
-                "circles": "circle_9|circle_10|circle_11|circle_12|circle_13|circle_14|circle_15|circle_16|circle_17"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.209,
-                    28.714
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Unique_ID": "station_10712",
-                "circles": "circle_0|circle_1|circle_2|circle_3|circle_4|circle_5|circle_6|circle_7|circle_8"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    77.094,
-                    28.844
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "Unique_ID": "station_6500",
-                "circles": "circle_54|circle_55|circle_56|circle_57|circle_59|circle_60|circle_61|circle_62"
+                "Unique_ID": "station_8165",
+                "circles": "circle_19|circle_21|circle_23|circle_24|circle_25|circle_26|circle_47"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     77.124,
-                    28.654
+                    28.729
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "Unique_ID": "station_7610",
-                "circles": "circle_45|circle_46|circle_48|circle_49|circle_50|circle_51|circle_52|circle_53"
+                "Unique_ID": "station_8179",
+                "circles": "circle_9|circle_10|circle_11|circle_12|circle_13|circle_14|circle_15"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.124,
-                    28.704
+                    77.194,
+                    28.729
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "Unique_ID": "station_8384",
-                "circles": "circle_19|circle_20|circle_21|circle_22|circle_23|circle_24|circle_25|circle_26"
+                "Unique_ID": "station_10604",
+                "circles": "circle_0|circle_3|circle_4|circle_5|circle_6|circle_7|circle_8"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     77.109,
-                    28.739
+                    28.839
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "Unique_ID": "station_6825",
-                "circles": "circle_36|circle_37|circle_38|circle_39|circle_40|circle_43|circle_44"
+                "Unique_ID": "station_6389",
+                "circles": "circle_63|circle_64|circle_65|circle_66|circle_68|circle_69"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.084,
+                    77.124,
+                    28.649
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_6416",
+                "circles": "circle_81|circle_82|circle_83|circle_84|circle_85|circle_86"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.259,
+                    28.649
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_7271",
+                "circles": "circle_36|circle_37|circle_38|circle_40|circle_43|circle_44"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.094,
+                    28.689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_5946",
+                "circles": "circle_60|circle_61|circle_62|circle_70|circle_71"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.129,
+                    28.629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_6835",
+                "circles": "circle_54|circle_55|circle_56|circle_59"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.134,
                     28.669
                 ]
             }
@@ -143,27 +143,41 @@
         {
             "type": "Feature",
             "properties": {
-                "Unique_ID": "station_6603",
-                "circles": "circle_41|circle_42"
+                "Unique_ID": "station_7946",
+                "circles": "circle_45|circle_46|circle_52|circle_53"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.084,
-                    28.659
+                    77.139,
+                    28.719
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "Unique_ID": "station_6498",
-                "circles": "circle_58"
+                "Unique_ID": "station_5863",
+                "circles": "circle_87|circle_88"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.114,
+                    77.269,
+                    28.624
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_6493",
+                "circles": "circle_41|circle_42"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.089,
                     28.654
                 ]
             }
@@ -171,28 +185,140 @@
         {
             "type": "Feature",
             "properties": {
-                "Unique_ID": "station_7720",
-                "circles": "circle_47"
+                "Unique_ID": "station_7391",
+                "circles": "circle_50|circle_51"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    77.119,
-                    28.709
+                    77.139,
+                    28.694
                 ]
             }
         },
         {
             "type": "Feature",
             "properties": {
-                "Unique_ID": "station_8386",
-                "circles": "circle_18"
+                "Unique_ID": "station_7498",
+                "circles": "circle_48|circle_49"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     77.119,
-                    28.739
+                    28.699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_7962",
+                "circles": "circle_16|circle_17"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.219,
+                    28.719
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_8049",
+                "circles": "circle_20|circle_22"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.099,
+                    28.724
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_10490",
+                "circles": "circle_1|circle_2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.094,
+                    28.834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_6162",
+                "circles": "circle_67"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.099,
+                    28.639
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_6607",
+                "circles": "circle_58"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.104,
+                    28.659
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_6720",
+                "circles": "circle_57"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.114,
+                    28.664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_7044",
+                "circles": "circle_39"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.069,
+                    28.679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Unique_ID": "station_8499",
+                "circles": "circle_18"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.129,
+                    28.744
                 ]
             }
         }
