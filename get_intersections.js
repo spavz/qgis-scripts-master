@@ -10,7 +10,7 @@ const POINT_ACCURACY = 0.005;
 
 const intersectedCirclesByChargingStationId = {}
 
-let deadBatteryPoints = require('./deadBatteryPoints.json')
+let deadBatteryPoints = require('./io/deadBatteryPoints.json')
 
 
 let stationIdNumber = 0;
@@ -52,5 +52,7 @@ Object.keys(intersectedCirclesByChargingStationId).forEach(stationId => {
     })
 })
 
-fs.writeFileSync('./intersectedCircles.geojson', JSON.stringify(outputFile))
+console.log('\nNumber of candidate charging stations: ' + outputFile.features.length +'\n')
+fs.writeFileSync('./io/intersectedCircles.json', JSON.stringify(outputFile))
+fs.writeFileSync('./io/intersectedCircles.geojson', JSON.stringify(outputFile))
 

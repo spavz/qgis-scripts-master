@@ -1,4 +1,5 @@
 import json
+from traceback import print_tb
 class IntersectedArea:
 
     def __init__(self, id, interesctingCircleIds):
@@ -22,7 +23,7 @@ def getBestCandidate(intersectedAreas, currentUnion):
 
 
 intersectedAreas = []
-with open('intersectedCircles.geojson') as json_file:
+with open('io/intersectedCircles.geojson') as json_file:
     rawAreas = json.load(json_file)['features']
 
     for rawArea in rawAreas:
@@ -32,9 +33,11 @@ with open('intersectedCircles.geojson') as json_file:
 
 finalIntersectedAreas = []
 currentUnionOfCircles = set()
+allUnionOfCircles = set()
 
 for i in range(len(intersectedAreas)):
     currentBestCandidate = getBestCandidate(intersectedAreas, currentUnionOfCircles)
+    allUnionOfCircles = allUnionOfCircles.union(intersectedAreas[i].interesctingCircleIds)
 
     if currentBestCandidate.interesctingCircleIds:
         currentUnionOfCircles = currentUnionOfCircles.union(currentBestCandidate.interesctingCircleIds)
@@ -42,14 +45,22 @@ for i in range(len(intersectedAreas)):
 
 geoJsonOutput = {'features': []}
 
-print('Minimized intersectedArea list covering all circles')
+print('\nMinimized charging station list: \n')
 for area in finalIntersectedAreas:
-    print(area.id, area.interesctingCircleIds)
+    print(area.id, 'covers', len(area.interesctingCircleIds), 'circles')
     geoJsonOutput['features'].append({'Unique_ID': area.id, 'circles': '|'.join(list(area.interesctingCircleIds)) })
-print()
 
-print('Union of intersected circles')
-print(currentUnionOfCircles)
+if len(allUnionOfCircles) == len(currentUnionOfCircles):
+    print('\nUnion of circles is valid\n')
+else:
+    print('\nUnion FAILED. Check union again \n')
 
-with open(f'subsetOfIntersectedCircles.geojson', "w") as jsonFile:
+print('Final number of charging stations: ', len(finalIntersectedAreas))
+
+
+with open(f'io/subsetOfIntersectedCircles.json', "w") as jsonFile:
+    json.dump(geoJsonOutput, jsonFile, indent=4)
+
+with open(f'io/subsetOfIntersectedCircles.geojson', "w") as jsonFile:
     json.dump(geoJsonOutput, jsonFile)
+

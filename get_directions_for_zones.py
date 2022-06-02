@@ -43,7 +43,7 @@ def get_directions_for_zones(fromZone, toZone, API_KEY, geoJsonOutput):
 
     pointsAlongLine = list(map(list, polyline.decode(pointsAlongLine)))
 
-    with open(f'./data/pointsAlongLine.json', "w") as jsonFile:
+    with open(f'./io/pointsAlongLine.json', "w") as jsonFile:
         json.dump({'pointsAlongLine': pointsAlongLine}, jsonFile)
 
     javascriptString = check_output(f"node polyline/dead_battery_points.js ", shell=True).decode('ascii')
@@ -79,10 +79,9 @@ geoJsonOutput = {'features': [], 'type': 'FeatureCollection', 'name': 'deadBatte
 
 
 #Read centroids_in_zones.json
-json_file = "centroids_in_zones.geojson"
 zones = []
 
-with open(json_file) as _Centroid_zones:
+with open('io/centroids_in_zones.geojson') as _Centroid_zones:
     zones = json.load(_Centroid_zones)['features']
 
 
@@ -92,5 +91,12 @@ for i in range(len(zones)):
             get_directions_for_zones(zones[i]['properties'], zones[j]['properties'], API_KEY, geoJsonOutput)
 
 
-with open(f'deadBatteryPoints.json', "w") as jsonFile:
+print('Number of Google maps direction pairs (zone combination pairs) : ', len(zones) * (len(zones) - 1))
+print('Number of deadBatteryPoints: ', len(geoJsonOutput['features']))
+
+
+with open(f'io/deadBatteryPoints.json', "w") as jsonFile:
+    json.dump(geoJsonOutput, jsonFile, indent=4)
+
+with open(f'io/deadBatteryPoints.geojson', "w") as jsonFile:
     json.dump(geoJsonOutput, jsonFile)
