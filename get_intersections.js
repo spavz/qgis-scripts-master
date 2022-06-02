@@ -11,7 +11,8 @@ const POINT_ACCURACY = 0.005;
 const intersectedCirclesByChargingStationId = {};
 const coordinatesByChargingStationId = {};
 
-let deadBatteryPoints = require('./io/deadBatteryPoints.json')
+const deadBatteryPoints = require('./io/deadBatteryPoints.json')
+const config = require('./config.json')
 
 
 let stationIdNumber = 0;
@@ -24,7 +25,7 @@ for (let y = Y_MIN; y < Y_MAX; y += POINT_ACCURACY) {
         const stationCoordinates = turf.point([parseFloat(x.toFixed(5)), parseFloat(y.toFixed(5))]);
         deadBatteryPoints.features.forEach(deadBatteryPoint => {
             var center = deadBatteryPoint.geometry.coordinates;
-            var radius = 500;
+            var radius = config.demandRadius;
             var options = { steps: 10, units: 'meters' };
             var circle = turf.circle(center, radius, options);
             if (turf.booleanPointInPolygon(stationCoordinates, circle)) {
