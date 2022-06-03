@@ -14,7 +14,7 @@ const coordinatesByChargingStationId = {};
 const deadBatteryPoints = require('./io/deadBatteryPoints.json')
 const config = require('./config.json')
 
-
+circleSet = new Set();
 let stationIdNumber = 0;
 
 for (let y = Y_MIN; y < Y_MAX; y += POINT_ACCURACY) {
@@ -28,6 +28,7 @@ for (let y = Y_MIN; y < Y_MAX; y += POINT_ACCURACY) {
             var radius = config.demandRadius;
             var options = { steps: 10, units: 'meters' };
             var circle = turf.circle(center, radius, options);
+            circleSet.add(JSON.stringify(circle));
             if (turf.booleanPointInPolygon(stationCoordinates, circle)) {
                 if (!intersectedCirclesByChargingStationId[stationId]) {
                     intersectedCirclesByChargingStationId[stationId] = new Set();
@@ -45,12 +46,17 @@ for (let y = Y_MIN; y < Y_MAX; y += POINT_ACCURACY) {
 }
 
 
-const outputFile =  {'features': [], 'type': 'FeatureCollection', 'name': 'intersectedCircles', 'crs': {'type': 'name', 'properties': {
+const chargingStations =  {'features': [], 'type': 'FeatureCollection', 'name': 'chargingStations', 'crs': {'type': 'name', 'properties': {
     "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
 }} }
 
+const circles =  {'features': [], 'type': 'FeatureCollection', 'name': 'circles', 'crs': {'type': 'name', 'properties': {
+    "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+}} }
+
+
 Object.keys(intersectedCirclesByChargingStationId).forEach(stationId => {
-    outputFile.features.push({
+    chargingStations.features.push({
         type: 'Feature',
         properties : {
             Unique_ID : stationId,
@@ -63,7 +69,13 @@ Object.keys(intersectedCirclesByChargingStationId).forEach(stationId => {
     })
 })
 
-console.log('\nNumber of candidate charging stations: ' + outputFile.features.length +'\n')
-fs.writeFileSync('./io/chargingStations.json', JSON.stringify(outputFile, null, 4))
-fs.writeFileSync('./io/chargingStations.geojson', JSON.stringify(outputFile))
+circles.features = Array.from(circleSet).map(circle => JSON.parse(circle))
+
+console.log('\nNumber of candidate charging stations: ' + chargingStations.features.length +'\n')
+fs.writeFileSync('./io/chargingStations.json', JSON.stringify(chargingStations, null, 4))
+fs.writeFileSync('./io/chargingStations.geojson', JSON.stringify(chargingStations))
+
+fs.writeFileSync('./io/circles.json', JSON.stringify(circles, null, 4))
+fs.writeFileSync('./io/circles.geojson', JSON.stringify(circles))
+// console.log(JSON.stringify(circles))
 
